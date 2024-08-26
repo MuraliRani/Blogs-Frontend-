@@ -3,10 +3,4 @@
   publish = "build"
 
 [context.production.environment]
-  NODE_VERSION = "16"
-
-[context.deploy-preview.environment]
-  NODE_VERSION = "16"
-
-[context.branch-deploy.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "18"
