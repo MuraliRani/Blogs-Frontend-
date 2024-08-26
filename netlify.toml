@@ -1,18 +1,12 @@
 [build]
-  # Command to run your build process
-  command = "NODE_OPTIONS=--openssl-legacy-provider npm run build"
-  
-  # Directory to publish after build
+  command = "npm run build"
   publish = "build"
 
 [context.production.environment]
-  # Set Node.js version to 16.x
   NODE_VERSION = "16"
 
 [context.deploy-preview.environment]
-  # Set Node.js version to 16.x for deploy previews
   NODE_VERSION = "16"
 
 [context.branch-deploy.environment]
-  # Set Node.js version to 16.x for branch deploys
   NODE_VERSION = "16"
